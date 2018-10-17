@@ -240,12 +240,6 @@ h2 {
   text-align: center;
 }
 
-.footerlinks {
-  text-align: left;
-  text-decoration: none;
-  padding-right: 3%;
-}
-
 .grid-container5{
   display:grid;
   /* Creating columns */
@@ -265,6 +259,13 @@ h2 {
   grid-column-end: 2;
 
 }
+
+.footerlinks {
+  text-align: left;
+  text-decoration: none;
+  padding-right: 3%;
+}
+
 
 .avatar {
   border-radius: 400px;
@@ -349,6 +350,12 @@ h2 {
     padding:10px;
   }
 
+  .item-13 {
+    grid-column: auto;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
   .grid-container4 {
     display:grid;
     /* Creating columns */
@@ -363,8 +370,32 @@ h2 {
     font-size: 34px;
   }
 
+.grid-container5{
+  display:grid;
+  /* Creating columns */
+  grid-template-columns: 100%;
+  /* Create spaces between items or "blocks" */
+  grid-gap: 15px;
+  color:white;
+  padding:10px;
+  margin-top: 70px;
 }
 
+.footerlinks {
+  text-align: center;
+  text-decoration: none;
+  padding-right: 3%;
+}
+
+.footersymbols {
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  font-size: 100%;
+
+}
+
+}
 
 @media only screen and (max-width: 650px) {
 
@@ -387,6 +418,56 @@ h2 {
 
   h2 {
     font-size: 47px;
+  }
+
+  .grid-container4 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    color:white;
+    padding:10px;
+  }
+
+  .grid-container4 >div {
+    font-size: 34px;
+  }
+
+  .subheadings {
+    text-align: center;
+  }
+
+  .gridinfo {
+    text-align: center;
+  }
+
+  .greytext{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+
+  .main-container {
+    margin-left: 1.250em;
+    margin-right: 1.250em;
+
+  }
+
+  .grid-container2 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    background-color: black;
+    color:white;
+    padding:10px;
+  }
+
+  h2 {
+    font-size: 35px;
   }
 
   .grid-container4 {
