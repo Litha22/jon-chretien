@@ -1,3 +1,5 @@
+@import url ("https:fonts.googleapis.com/css?family=Vollkorn");
+
 body {
   margin-left: 0px;
   margin-right: 0px;
@@ -88,6 +90,7 @@ h1 {
   line-height: 1px;
   font-size: 47px;
   text-align: center;
+  font-family: Vollkorn;
 }
 
 .intro {
@@ -103,10 +106,16 @@ h1 {
   background-color: black;
   color:white;
   padding:10px;
+  margin-top: 1px;
 }
 
 .grid-container2 >div {
   font-size: 20px;
+}
+
+.mainheadings {
+  margin-top: 50px;
+  font-family: Vollkorn;
 }
 
 h2 {
