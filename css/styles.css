@@ -27,7 +27,7 @@ hr {
 .hyperlinks {
   transition: 0.2s ease;
   text-decoration: none;
-  color: yellow;
+  color: #ff3;
 }
 
 .hyperlinks:hover {
@@ -46,7 +46,7 @@ opacity: 0.65;
 }
 .subheadings {
   transition: 0.2s ease;
-  color: yellow;
+  color: #ff3;
   text-decoration: none;
   font-size: 24px;
   margin-bottom: 4px;
@@ -115,56 +115,13 @@ h2 {
   font-size: 2.938em;
 }
 
-.item-2 {
-
-}
-
-
-.item-3 {
-
-
-}
-
-.item-4 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-.item-5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.item-6 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.item-7 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.item-8 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.item-9 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.item-10 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
 .gridinfo {
   color: #ccc;
   font-size: 16px;
   line-height: 1.35em;
   margin-bottom: 4px;
 }
+
 
 .greytext {
   font-size: 10px;
