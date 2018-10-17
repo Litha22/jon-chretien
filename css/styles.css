@@ -400,8 +400,8 @@ h2 {
 @media only screen and (max-width: 650px) {
 
   .main-container {
-    margin-left: 2.250em;
-    margin-right: 2.250em;
+    margin-left: 2.050em;
+    margin-right: 2.050em;
 
   }
 
@@ -494,5 +494,13 @@ h2 {
 
   .greytext{
     text-align: center;
+  }
+}
+@media only screen and (max-width: 260px) {
+
+  .main-container {
+    margin-left: 0.250em;
+    margin-right: 0.250em;
+
   }
 }
