@@ -58,6 +58,9 @@ text-decoration:grey;
 
 }
 
+a:active {
+  opacity: 0.65;
+}
 
 /* Hover Effects End Here */
 
@@ -182,9 +185,6 @@ h2 {
   padding:10px;
 }
 
-.grid-container3 >div {
-}
-
 
 .item-13 {
     grid-column: span 2;
@@ -282,7 +282,7 @@ h2 {
 }
 /* Media Queries */
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
 
   .grid-container2 {
     display:grid;
@@ -295,18 +295,14 @@ h2 {
     padding:10px;
   }
 
-  .grid-container2 >div {
-    font-size: 20px;
-  }
-
   h2 {
     font-size: 47px;
   }
 
-  .grid-container4{
+  .grid-container4 {
     display:grid;
     /* Creating columns */
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     /* Create spaces between items or "blocks" */
     grid-gap: 15px;
     color:white;
@@ -317,8 +313,105 @@ h2 {
     font-size: 34px;
   }
 
+}
+
+@media only screen and (max-width: 750px) {
+
+  .main-container {
+    margin-left: 3.050em;
+    margin-right: 3.050em;
+
+  }
+
+  .grid-container2 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 50% 50%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    background-color: black;
+    color:white;
+    padding:10px;
+  }
+
+  h2 {
+    font-size: 47px;
+  }
+
+  .grid-container3{
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    background-color: black;
+    color:white;
+    padding:10px;
+  }
+
+  .grid-container4 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 50% 50%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    color:white;
+    padding:10px;
+  }
+
+  .grid-container4 >div {
+    font-size: 34px;
+  }
+
+}
 
 
+@media only screen and (max-width: 650px) {
 
+  .main-container {
+    margin-left: 2.250em;
+    margin-right: 2.250em;
 
+  }
+
+  .grid-container2 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    background-color: black;
+    color:white;
+    padding:10px;
+  }
+
+  h2 {
+    font-size: 47px;
+  }
+
+  .grid-container4 {
+    display:grid;
+    /* Creating columns */
+    grid-template-columns: 100%;
+    /* Create spaces between items or "blocks" */
+    grid-gap: 15px;
+    color:white;
+    padding:10px;
+  }
+
+  .grid-container4 >div {
+    font-size: 34px;
+  }
+
+  .subheadings {
+    text-align: center;
+  }
+
+  .gridinfo {
+    text-align: center;
+  }
+
+  .greytext{
+    text-align: center;
+  }
 }
