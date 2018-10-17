@@ -408,17 +408,7 @@ h2 {
     font-size: 34px;
   }
 
-  .subheadings {
-    text-align: center;
-  }
 
-  .gridinfo {
-    text-align: center;
-  }
-
-  .greytext{
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 330px) {
@@ -458,17 +448,7 @@ h2 {
     font-size: 34px;
   }
 
-  .subheadings {
-    text-align: center;
-  }
 
-  .gridinfo {
-    text-align: center;
-  }
-
-  .greytext{
-    text-align: center;
-  }
 }
 @media only screen and (max-width: 260px) {
 
