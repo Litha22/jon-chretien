@@ -11,7 +11,7 @@ Website rebuilding is all about rebuilding a structure and its additional conten
  - css grid
 
 ## Live Link
-- https://litha22.github.io/website-rebuild/index.html
+- https://litha22.github.io/jon-chretien/index.html
 
 ## Prevalent Technologies Used
 
@@ -67,4 +67,4 @@ Tools:
 Litha Nelani - 2018
 
 
-visit site here: https://litha22.github.io/website-rebuild/index.html
+visit site here: https://litha22.github.io/jon-chretien/index.html
