@@ -19,7 +19,6 @@ hr {
 .main-container {
   margin-left: 6.250em;
   margin-right: 6.250em;
-
 }
 
 /* Hover Effects Start Here */
@@ -44,6 +43,7 @@ hr {
 .img:hover {
 opacity: 0.65;
 }
+
 .subheadings {
   transition: 0.2s ease;
   color: #ff3;
@@ -55,7 +55,6 @@ opacity: 0.65;
 .subheadings:hover {
 color:grey;
 text-decoration:grey;
-
 }
 
 a:active {
@@ -95,6 +94,8 @@ h1 {
 
 .intro {
   font-size: 34px;
+  font-family: Vollkorn - 400;
+  weight:400px;
 }
 
 .grid-container2{
@@ -148,14 +149,13 @@ h2 {
   padding:10px;
 }
 
-
 .item-13 {
-    grid-column: span 2;
-    grid-row: span 2;
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 .item-14 {
-    grid-row-start: 4;
+  grid-row-start: 4;
 }
 .grid-container4{
   display:grid;
@@ -171,26 +171,6 @@ h2 {
   font-size: 34px;
 }
 
-.item-16 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-
-}
-
-.item-17 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-.item-18 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
-.item-19 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
 .grid3subheadings {
   text-align: center;
   line-height: 1px;
@@ -198,7 +178,7 @@ h2 {
 }
 
 .grid4content {
- font-size: 60%;
+  font-size: 60%;
   color: grey;
   text-align: center;
 }
@@ -338,7 +318,7 @@ h2 {
     font-size: 34px;
   }
 
-.grid-container5{
+ .grid-container5{
   display:grid;
   /* Creating columns */
   grid-template-columns: 100%;
@@ -348,26 +328,25 @@ h2 {
   padding:10px;
   margin-top: 70px;
   text-align: center;
-}
+  }
 
-.item-21 {
+  .item-21 {
   text-align: center;
 
-}
+  }
 
-.footerlinks {
+  .footerlinks {
   text-align: center;
   text-decoration: none;
   padding-right: 3%;
-}
+  }
 
 .footersymbols {
   text-align: center;
   text-decoration: none;
   color: grey;
   font-size: 100%;
-
-}
+  }
 
 }
 
@@ -450,6 +429,7 @@ h2 {
 
 
 }
+
 @media only screen and (max-width: 260px) {
 
   .main-container {
